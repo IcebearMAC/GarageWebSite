@@ -74,7 +74,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CheckIn.html" />
+    <Content Include="CheckOut.html" />
     <Content Include="Index.html" />
+    <Content Include="Menu.css" />
+    <Content Include="Search.html" />
+    <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

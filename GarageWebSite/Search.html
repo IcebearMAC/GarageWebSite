@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Garage Search</title>
+    <link rel="stylesheet" href="StyleSheet.css" type="text/css" />
+    <link rel="stylesheet" href="Menu.css" type="text/css" />
+</head>
+<body>
+    <nav>
+        <ul id="nav">
+            <li><a href="CheckOut.html">Check Out</a></li>
+            <li><a href="CheckIn.html">Check In</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div>
+        <div>
+            <div id="Caption"><h1>Search vehicle</h1></div>
+                <div id="Container2">
+                    <form id="mmm">
+                        <h3> Search for specific vehicle with:<br />
+                             Registration number</h3>
+                        <input type="text" name="regnr"/>
+                        <input type="Submit" value="submit" />
+                    </form>
+                </div>
+
+            <div id="abcd">
+                <div id="Type">
+                    <h3>Search for vehicle type</h3>
+                    <!--<form>
+                        <input type="radio" name="vehicle" value="MotorCycle" checked> MotorCycle<br>
+                        <input type="radio" name="vehicle" value="Car"> Car<br>
+                        <input type="radio" name="vehicle" value="Bus"> Bus<br>
+                        <input type="radio" name="vehicle" value="Truck"> Truck<br>
+                        <br /><input type="Submit" value="submit" />
+                    </form>-->
+
+                    <form>
+                        <select id="vehicle" name="vehicle">
+                            <option value="MC">Motorcycle</option>
+                            <option value="car">Car</option>
+                            <option value="bus">Bus</option>
+                            <option value="truck">Truck</option>
+                        </select>
+                    </form>
+
+                </div>
+                <div id="ALLVehicles"><button type="button">Basic information for all vehicles</button></div>
+
+                <div id="DatePark"><button type="button">Vehicles date parked</button></div>
+            </div>
+       </div>
+    </div>
+
+</body>
+</html>
